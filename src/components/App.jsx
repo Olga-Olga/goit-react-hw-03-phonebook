@@ -73,7 +73,6 @@ export class App extends React.Component {
   }
 }
 
-//     <div>
 //       <ul>{this.handleFilterContacts().map(el => {
 //             return (
 //               <li key={el.id}>
@@ -83,4 +82,3 @@ export class App extends React.Component {
 //           })
 //         }
 //  </ul>
-//     </div>;
