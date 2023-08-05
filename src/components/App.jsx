@@ -18,7 +18,6 @@ export class App extends React.Component {
   componentDidMount() {
     const stor = JSON.parse(localStorage.getItem('contacts'));
     if (stor) {
-      console.log(stor);
       this.setState({ contacts: stor });
     }
   }
