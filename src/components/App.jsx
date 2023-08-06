@@ -72,13 +72,3 @@ export class App extends React.Component {
     );
   }
 }
-
-//       <ul>{this.handleFilterContacts().map(el => {
-//             return (
-//               <li key={el.id}>
-//                 {el.name} {el.number}
-//               </li>
-//             )
-//           })
-//         }
-//  </ul>
