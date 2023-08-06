@@ -12,8 +12,9 @@ export default class ContactsForm extends Component {
     event.preventDefault();
     const name = event.target.name.value;
     const number = event.target.number.value;
-    console.log(this.props);
     this.props.handleAddContact({ name, number });
+    // event.target.reset();
+    this.setState({ name: '', number: '' });
   };
 
   render() {
