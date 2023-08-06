@@ -67,7 +67,7 @@ export class App extends React.Component {
           onChangeFilterValue={this.handleFilter}
           value={this.state.filter}
         />
-        <ContactList paramList={filteredData} onDelete={this.handleDelete} />
+        <ContactList onDelete={this.handleDelete} paramList={filteredData} />
       </div>
     );
   }
